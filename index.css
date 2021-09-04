@@ -55,7 +55,7 @@
 }
 .card-button{
     text-align: center;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(16, 20, 235);
     padding: 10x 10px;
     border-radius: 10px;
     margin: 10px;
@@ -70,5 +70,49 @@
 }
 .copyright{
     color: white;
+}
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.header-row {
+     display: flex;
+     align-items: center;
+}
+.header-logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+.logo-img {
+    margin-right: 20px;
+}
+.header-menu {
+    flex-grow: 3;
+}
+.cards-row {
+    display: flex;
+
+}
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social {
+    width: 70px;
+}
+.footer-search {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.footer-search-input {
+        height: 30px;
+        flex-grow: 3;
+        margin-right: 20px;
+        border: none;
+        border-radius: 10px;
 }
 
